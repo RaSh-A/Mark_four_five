@@ -1,0 +1,177 @@
+body{
+    font-family: Poppins;
+    margin: 0px auto;
+    max-width: 85%;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+.navigation{
+    display: block;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: #47B5FF;
+}
+
+.nav-brand{
+    text-align: left;
+    color: white ;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: .5rem;
+}
+.nav-brand a{
+    color: white;
+    text-decoration: none;
+}
+
+span{
+    color: #256D85;
+}
+
+.links{
+    text-align: right;
+    margin: 1rem, 0.5rem;
+    padding: 1rem, 0;
+}
+
+.no-bullets{
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.list-attr{
+    display: inline;
+    margin: 1rem, 0.6rem;
+    padding: 1rem;
+    font: 400;
+}
+
+.link{
+    box-sizing: border-box;
+    color:white;
+    text-decoration: none;
+    padding: 1rem, 0.5rem;
+}
+
+.link-active{
+    font-weight: bold;
+}
+
+.banner{
+    max-width: 35%;
+    display:block;
+    margin: 0 auto;
+    padding: 1rem 0.5rem;
+}
+
+.intro{
+    text-align: center;
+}
+
+.container{
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    
+}
+
+.tech{
+    background-color: #DFF6FF;
+}
+
+.blogs{
+    background-color: #DFF6FF
+}
+
+.btn{
+    font-family: 'Poppins';
+    margin: 0 1rem;
+    padding:0.375rem 0.75rem;
+    border: 1px solid transparent;
+    text-align: center;
+    font-weight: 400;
+    border-radius: 1rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.KM{
+    color: #47B5FF;
+    border-color: #47B5FF;
+    background-color: transparent;
+}
+.KM:hover{
+    color:white;
+    background-color: #47B5FF;
+    border-color: #47B5FF;
+}
+
+.OG{
+    color: #06283D;
+    border-color: #06283D;
+    background-color: transparent;
+}
+.OG:hover{
+    color:white;
+    background-color: #06283D;
+    border-color: #06283D;
+}
+
+footer{
+    margin: 1rem 0 0 0;
+    padding: 1rem;
+    background-color: #06283D;
+    color: white;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+footer h2{
+    font-family: 'Pacifico';
+}
+
+footer a{
+    width: 3rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: white;
+}
+
+code{
+    font-size: large;
+}
+
+/*-------------------------------------------- Projects.html --------------------------------------------*/
+
+.project-header{
+    background-color: #256D85;
+    border-radius: 1rem;
+}
+.project-header h1{
+    padding: 4rem;
+    color: white;
+    font-size: 3rem;
+}
+
+.border{
+    border: 0.1rem solid #256D85;
+}
+
+.bg{
+    background-color: #DFF6FF;
+}
+
+.border:hover{
+    background-color: #47B5FF;
+    color: white;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+}
+
+.bg:hover{
+    background-color: #06283D;
+    color: white;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+}
